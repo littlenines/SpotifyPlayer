@@ -1,6 +1,7 @@
 # SpotifyPlayer
 <br>
 A music player that is based on how spotify looks , the main part is JS which was used to learn how to work with audio <br><br>
+![SCREENSHOT]
 
 1. Select all elements from HTML
 ```
