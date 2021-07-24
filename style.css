@@ -1,0 +1,177 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.2;
+  color: white;
+}
+
+.section-container {
+  width: 385px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.wrap {
+  width: 365px;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.playlist-text {
+  text-align: center;
+  width: 340px;
+}
+
+.lightColor {
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.art-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.art {
+  width: 350px;
+  height: 330px;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-info {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.header-text {
+  margin-left: 0.8rem;
+  text-align: left;
+}
+
+.fa-heart {
+  position: absolute;
+  right: 0;
+  margin-right: 0.5rem;
+}
+
+.artist {
+  opacity: 0.8;
+}
+
+.header-info i {
+  margin-left: 4.5rem;
+  font-size: 1.5rem;
+}
+.seek-slider {
+  margin-top: 0.5rem;
+}
+
+.music-slider {
+  width: 97%;
+  height: 5px;
+  max-width: 400px;
+  margin: 0px 5px 5px 5px;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.2;
+  transition: opacity 0.2s;
+}
+.music-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.05s;
+}
+
+.music-slider::-moz-range-thumb {
+  width: 25px;
+  height: 52px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.05s;
+}
+
+.timer {
+  display: flex;
+  position: relative;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.end-time {
+  position: absolute;
+  right: 0;
+}
+
+.button-section {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.play-track {
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.fa-random {
+  position: absolute;
+  margin-left: 0.5rem;
+  left: 0;
+}
+
+.fa-redo-alt {
+  position: absolute;
+  margin-right: 0.5rem;
+  right: 0;
+}
+
+.footer-elements {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.fa-headphones {
+  position: absolute;
+  margin-left: 0.5rem;
+  left: 0;
+}
+
+.fa-bars {
+  position: absolute;
+  margin-right: 0.5rem;
+  right: 0;
+}
